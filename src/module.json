@@ -1,33 +1,20 @@
 {
   "name": "MultipleParties",
-  "title": "MultipleParties",
-  "description": "",
-  "systems": [],
-  "version": "0.1.0",
-  "author": "",
-  "authors": [
-    {
-      "name": "",
-      "email": "",
-      "url": ""
-    }
-  ],
-  "scripts": [],
+  "title": "Multiple Parties",
+  "description": "A module that implements support for multiple parties.",
+  "version": "0.0.1",
+  "author": "Grant Kluber",
   "esmodules": [
     "MultipleParties.js"
   ],
   "styles": [
     "MultipleParties.css"
   ],
-  "packs": [],
-  "languages": [],
   "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "0.5.0",
-  "url": "",
+  "compatibleCoreVersion": "0.6.5",
+  "url": "https://github.com/gkluber/FoundryVTT-Multiple-Parties",
   "manifest": "",
-  "download": "",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": ""
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/gkluber/FoundryVTT-Multiple-Parties/issues",
 }
