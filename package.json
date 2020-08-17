@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "MultipleParties",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "",
 	"scripts": {
 		"package": "gulp package",

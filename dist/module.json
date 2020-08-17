@@ -2,7 +2,7 @@
 	"name": "MultipleParties",
 	"title": "Multiple Parties",
 	"description": "A module that implements support for multiple parties.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "Grant Kluber",
 	"esmodules": [
 		"MultipleParties.js"
@@ -15,5 +15,5 @@
 	"license": "LICENSE",
 	"readme": "README.md",
 	"bugs": "https://github.com/gkluber/FoundryVTT-Multiple-Parties/issues",
-	"download": "https://raw.githubusercontent.com/gkluber/FoundryVTT-Multiple-Parties/v0.0.3/package/MultipleParties-v0.0.3.zip"
+	"download": "https://raw.githubusercontent.com/gkluber/FoundryVTT-Multiple-Parties/v0.0.4/package/MultipleParties-v0.0.4.zip"
 }
