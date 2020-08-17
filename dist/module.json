@@ -15,5 +15,5 @@
 	"license": "LICENSE",
 	"readme": "README.md",
 	"bugs": "https://github.com/gkluber/FoundryVTT-Multiple-Parties/issues",
-	"download": "https://github.com/gkluber/FoundryVTT-Multiple-Parties/raw/master/package/MultipleParties-v0.0.4.zip"
+	"download": "https://raw.githubusercontent.com/gkluber/FoundryVTT-Multiple-Parties/v0.0.4/package/MultipleParties-v0.0.4.zip"
 }
