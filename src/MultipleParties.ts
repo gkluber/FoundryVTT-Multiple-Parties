@@ -4,7 +4,7 @@
  */
 
 // Import TypeScript modules
-import { registerSettings } from './module/settings.js';
+import { registerSettingsInit, registerSettingsReady } from './module/settings.js';
 import { preloadTemplates } from './module/preloadTemplates.js';
 
 /* ------------------------------------ */
@@ -16,7 +16,7 @@ Hooks.once('init', async function() {
 	// Assign custom classes and constants here
 	
 	// Register custom module settings
-	registerSettings();
+	registerSettingsInit();
 	
 	// Preload Handlebars templates
 	await preloadTemplates();
@@ -37,6 +37,9 @@ Hooks.once('setup', function() {
 /* ------------------------------------ */
 Hooks.once('ready', function() {
 	// Do anything once the module is ready
+	registerSettingsReady();
 });
 
-// Add any additional hooks if necessary
+Hooks.on('createChatMessage', function(msg: ChatMessage, data: {temporary: boolean, renderSheet: boolean}, userId: string) {
+
+});
